@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Orbitron:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+}
+
+.html{
+    font-size: 62.5%;
+}
+
+.main-div{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(236, 200, 236) ;
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: bisque;
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.inner-div h2 {
+    font-size: 2rem ;
+    font-weight: 400;
+    margin: 1.5rem 0 3rem 0;
+    display: flex;
+}
+
+.quetime{
+    display: flex;
+}
+
+.timer-div{
+    
+    background-color: #e1f5fe;
+    width: 7.5em;
+    height: 2.5em;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 0.7em 1.8em;
+}
+
+.time-left{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+
+.inner-div li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+ 
+}
+
+.new{
+    cursor: pointer;
+}
+
+
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 0.5rem 3rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: lightcoral;
+    margin-top: 2.5rem;
+}
+
+#submit:hover{
+    background-color: lightpink;
+}
+
+#showscore{
+    background-color: chocolate;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+#showscore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showscore .btn {
+    margin-top: 2rem;
+    background-color: rgb(255, 153, 0);
+    color: black;
+    cursor: pointer;
+}
+
+#showscore .btn:hover{
+    background-color: lightpink;
+    color: brown;
+}
+
+.scorearea{
+    display: none;
+}

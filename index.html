@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="icon" href="./pv.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="inner-div">
+            <div class="quetime">
+            <h2 class="question">Question Comes Here</h2>
+            <div class="timer-div">
+                <img src="sand-clock.png" alt="" width="20px">
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" class="new" id="opt1"> Answer Option </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" class="new" id="opt2"> Answer Option </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" class="new" id="opt3"> Answer Option </label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" class="new" id="opt4"> Answer Option </label>
+                </li>
+            </ul>
+            <button id="submit">SUBMIT</button>
+        </div>
+        <div id="showscore" class="scorearea"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
